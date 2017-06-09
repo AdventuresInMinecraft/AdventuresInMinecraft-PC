@@ -1,4 +1,4 @@
-# Raspberry Pi Starter Kit
+# Windows PC Starter Kit
 
 Martin O'Hanlon
 
@@ -23,7 +23,7 @@ The structure of the StarterKit is as follows:
 
 ## StarterKit Creation Guide
 
-If required the information below can be used as a guide to create your own StarterKit from scratch.  It is written as guide, not as a precise series of instructions.  There is no guarantee that they are accurate and are provided as is.
+If required the information below can be used as a guide to create your own StarterKit from scratch.  It is written as guide, not as a precise series of instructions. There is no guarantee that they are accurate and are provided as is.
 
 You can use either Bukkit or Spigot for the minecraft server.
 
@@ -33,8 +33,11 @@ Create a folder `AdventuresInMinecraft`
 
 Create a folder `AdventuresInMinecraft\Server`
 
-Compile and run Bukkit
----------------------
+Create a folder `AdventuresInMinecraft\MyAdventures`
+
+
+### Compile and run Bukkit
+
 Compile the Minecraft server based on the instructions here (https://www.spigotmc.org/wiki/spigot-installation/) and put it in `AdventuresInMinecraft\Server`, the compiled bukkit jar file will be named craftbukkit-#.#.#-R#.0.jar where the # s are the current version number; make a note of the version number, you will need this later.
 
 Rename the compiled.jar file from `craftbukkit-#.#.#-R#.#.jar` to `craftbukkit.jar`.
