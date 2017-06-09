@@ -1,0 +1,29 @@
+
+The source code for the pyserial package is released under it's own licence
+that is detailed inside the anyio/arduino/pyserial package, and pyserial
+is provided for convenience in it's original form. The pyserial licence
+permits the package to be embedded inside other packages in this way.
+
+
+anyio Licence
+
+Copyright (c) 2014 whaleygeek (David Whale)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use the
+Software for educational or non commercial purposes.
+
+You agree to not restrict my rights in the use of this Software in any way.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
