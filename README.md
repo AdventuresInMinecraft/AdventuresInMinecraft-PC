@@ -49,7 +49,7 @@ java -Xms1024M -Xmx1024M -jar craftbukkit.jar
 PAUSE
 ```
 
-4. Save the file in notepad to the `Server` folder as `start.bat`.  The start.bat file is a windows batch program which will startup the Minecraft server when it is run.
+4. Save the file to the `Server` folder as `start.bat`.  The start.bat file is a windows batch program which will startup the Minecraft server when it is run.
 
 5. Run the `start.bat` file and startup the server.
 
@@ -81,7 +81,7 @@ Fyi - Because of issues with java not being consistently being available to run 
 
 ### Create StartServer.bat
 
-Open notepad and add the following text:
+Open a text editor and add the following text:
 
 ```
 ECHO OFF
@@ -98,7 +98,7 @@ ECHO ON
 
 Replace #.#.# with the version number of Minecraft server you created.
 
-Save the file as StartServer.bat to the AdventuresInMinecraft folder
+Save the file as StartServer.bat to the AdventuresInMinecraft folder.
 
 ### Install RaspberryJuice
  ----------------------
