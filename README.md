@@ -38,30 +38,28 @@ Create a folder `AdventuresInMinecraft\MyAdventures`
 
 ### Compile and run Bukkit
 
-Compile the Minecraft server based on the instructions here (https://www.spigotmc.org/wiki/spigot-installation/) and put it in `AdventuresInMinecraft\Server`, the compiled bukkit jar file will be named craftbukkit-#.#.#-R#.0.jar where the # s are the current version number; make a note of the version number, you will need this later.
+1. Compile the Minecraft server based on the instructions here (https://www.spigotmc.org/wiki/spigot-installation/) and put it in `AdventuresInMinecraft\Server`, the compiled bukkit jar file will be named craftbukkit-#.#.#-R#.0.jar where the # s are the current version number; make a note of the version number, you will need this later.
 
-Rename the compiled.jar file from `craftbukkit-#.#.#-R#.#.jar` to `craftbukkit.jar`.
+2. Rename the compiled.jar file from `craftbukkit-#.#.#-R#.#.jar` to `craftbukkit.jar`.
 
-Open Notepad and insert the following text:
+3. Open a text editor and insert the following text:
 
 ```
 java -Xms1024M -Xmx1024M -jar craftbukkit.jar
 PAUSE
 ```
 
-Save the file in notepad to the `Server` folder as `start.bat`.
+4. Save the file in notepad to the `Server` folder as `start.bat`.  The start.bat file is a windows batch program which will startup the Minecraft server when it is run.
 
-The start.bat file is a windows batch program which will startup the Minecraft server when it is run.
+5. Run the `start.bat` file and startup the server.
 
-Double-click the `start.bat` file to run it and startup the server.
+6. Wait for the message `You need to agree to the EULA in order to run the server.`. Edit eula.txt so eula=true.
 
-Wait for the message `You need to agree to the EULA in order to run the server.`. Edit eula.txt so eula=true.
-
-Double-click the `start.bat` file to run it and startup the Minecraft server.
+7. Double-click the `start.bat` file to run it and startup the Minecraft server.
 
 When you first start the Minecraft server it will take a little time to run as it sets up the server and creates a new Minecraft world, when its finished you will see the message `Done` in the command window.
 
-When you want to start your Minecraft server in the future you can double click on the `start.bat` file.
+When you want to start your Minecraft server in the future you can run the `start.bat` file.
 
 To stop the server, enter the word `stop` into the command window and press `Enter`.
 
@@ -69,18 +67,17 @@ Fyi - Because of issues with java not being consistently being available to run 
 
 ### Configure Bukkit
 
-Open Notepad, click File, Open and goto the `Server` folder on the Desktop, change the `Text Documents (*.txt)` to `All Files (*.*)` and open `server.properties`.
+1. Open a text editor, click File, Open and goto the `Server` folder and open `server.properties`.
 
-By changing the `server.properties` files you can change how the server is setup.
+2. Change the `server.properties` file:
 
-Change:
- * `gamemode=0` to `gamemode=1` to change the server from survival mode to creative.
- * `force-gamemode=false` to `force-gamemode=true` to make all players play in creative mode.
- * `spawn-monsters=true` to `spawn-monsters=false` so monsters mobs wont appear in the game.
- * `spawn-animals=true` to `spawn-animals=false` so animals wont appear.
- * `spawn-npcs=true` to `spawn-npcs=false` so monsters mobs wont appear in the game.
- * `allow-flight=false` to `allow-flight=true` so you can fly in Minecraft.
- * `online-mode=true` to `online-mode=false` so you don t need to be connected to the internet to use Bukkit
+   * `gamemode=0` to `gamemode=1` to change the server from survival mode to creative.
+   * `force-gamemode=false` to `force-gamemode=true` to make all players play in creative mode.
+   * `spawn-monsters=true` to `spawn-monsters=false` so monsters mobs wont appear in the game.
+   * `spawn-animals=true` to `spawn-animals=false` so animals wont appear.
+   * `spawn-npcs=true` to `spawn-npcs=false` so monsters mobs wont appear in the game.
+   * `allow-flight=false` to `allow-flight=true` so you can fly in Minecraft.
+   * `online-mode=true` to `online-mode=false` so you don t need to be connected to the internet to use Bukkit
 
 ### Create StartServer.bat
 
@@ -101,32 +98,34 @@ ECHO ON
 
 Replace #.#.# with the version number of Minecraft server you created.
 
-Save the folder as StartBukkit.bat to the AdventuresInMinecraft folder
+Save the file as StartServer.bat to the AdventuresInMinecraft folder
 
 ### Install RaspberryJuice
  ----------------------
 RaspberryJuice is a plugin for Bukkit which will allow you to write programs which will change the Minecraft world as you are playing, just like the API which comes with Minecraft: Pi Edition on the Raspberry Pi.
 
-Goto https://www.spigotmc.org/resources/raspberryjuice.22724/ and download the latest version of the raspberry juice plugin, download the raspberryjuice-#.#.jar file.  
+1. Goto https://www.spigotmc.org/resources/raspberryjuice.22724/ 
 
-Copy the raspberryjuice-#-#.jar plugin to the plugins folder in the Bukkit folder.
+2. download the latest version of the raspberry juice plugin, download the raspberryjuice-#.#.jar file.  
+
+3. Copy the raspberryjuice-#-#.jar plugin to the plugins folder in the Bukkit folder.
 
 ### Setup MyAdventures folder
 
-1. Get mcpi from github https://github.com/martinohanlon/mcpi
+1. Get mcpi from github https://github.com/AdventuresInMinecraft/mcpi
 
 ```
-git clone https://github.com/martinohanlon/mcpi
+git clone https://github.com/AdventuresInMinecraft/mcpi
 ```
 
 Note - the mcpi repository contains the python 3 version of the library supplied by mojang with Minecraft: Pi Edition [https://github.com/py3minepi/py3minepi](https://github.com/py3minepi/py3minepi) and the minecraftstuff library [https://github.com/martinohanlon/minecraft-stuff](github.com/martinohanlon/minecraft-stuff)
 
 2. Copy the mcpi folder to MyAdventures
 
-3. Download anyio from github [https://github.com/whaleygeek/anyio](github.com/whaleygeek/anyio)
+3. Download anyio from github [https://github.com/AdventuresInMinecraft/anyio](github.com/AdventuresInMinecraft/anyio)
 
 ```
-git clone https://github.com/whaleygeek/anyio
+git clone https://github.com/AdventuresInMinecraft/anyio
 ```
 
 4. Copy the anyio/anyio folder to MyAdventures
