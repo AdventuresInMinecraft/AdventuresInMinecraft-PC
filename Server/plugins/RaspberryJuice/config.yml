@@ -2,4 +2,4 @@
 port: 4711
 
 # Determine whether locations are RELATIVE to the spawn point (default like pi) or ABSOLUTE
-location: RELATIVE
+location: ABSOLUTE
