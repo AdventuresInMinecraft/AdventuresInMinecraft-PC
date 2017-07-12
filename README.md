@@ -129,3 +129,15 @@ git clone https://github.com/AdventuresInMinecraft/anyio
 ```
 
 4. Copy the anyio/anyio folder to MyAdventures
+
+5. Copy the anyio/findPort.py file to MyAdventures
+
+6. Download bitio from github [https://github.com/AdventuresInMinecraft/bitio](github.com/AdventuresInMinecraft/bitio)
+
+```
+git clone https://github.com/AdventuresInMinecraft/bitio
+```
+
+7. Copy the bitio/src/microbit folder to MyAdventures
+
+8. Copy the bitio/bitio.hex file to MyAdventures
