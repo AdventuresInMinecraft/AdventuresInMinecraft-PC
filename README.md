@@ -124,22 +124,30 @@ Note - the mcpi repository contains the python 3 version of the library supplied
 
 2. Copy the mcpi folder to MyAdventures
 
-3. Download anyio from github [https://github.com/AdventuresInMinecraft/anyio](github.com/AdventuresInMinecraft/anyio)
+3. Get the minecraft-stuff module from [https://github.com/martinohanlon/minecraft-stuff](github.com/martinohanlon/minecraft-stuff)
+
+```
+git clone https://github.com/martinohanlon/minecraft-stuff
+```
+
+4. Copy "minecraftstuff\minecraftstuff.py" to the mcpi folder.
+
+5. Download anyio from github [https://github.com/AdventuresInMinecraft/anyio](github.com/AdventuresInMinecraft/anyio)
 
 ```
 git clone https://github.com/AdventuresInMinecraft/anyio
 ```
 
-4. Copy the anyio/anyio folder to MyAdventures
+6. Copy the anyio/anyio folder to MyAdventures
 
-5. Copy the anyio/findPort.py file to MyAdventures
+7. Copy the anyio/findPort.py file to MyAdventures
 
-6. Download bitio from github [https://github.com/AdventuresInMinecraft/bitio](github.com/AdventuresInMinecraft/bitio)
+8. Download bitio from github [https://github.com/AdventuresInMinecraft/bitio](github.com/AdventuresInMinecraft/bitio)
 
 ```
 git clone https://github.com/AdventuresInMinecraft/bitio
 ```
 
-7. Copy the bitio/src/microbit folder to MyAdventures
+9. Copy the bitio/src/microbit folder to MyAdventures
 
-8. Copy the bitio/bitio.hex file to MyAdventures
+10. Copy the bitio/bitio.hex file to MyAdventures
